@@ -1,0 +1,8 @@
+# Assurez-vous que les fichiers de texte utilisent LF
+* text=auto eol=lf
+
+# Pour les fichiers déjà commis avec des fins de ligne CRLF, forcez LF
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf

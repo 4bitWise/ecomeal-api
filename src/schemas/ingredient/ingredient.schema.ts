@@ -5,7 +5,7 @@ export type IngredientDocument = HydratedDocument<Ingredient>;
 
 @Schema({ strict: false, timestamps: true })
 export class Ingredient {
-  @Prop({ required: true })
+  @Prop({ required: true, unique: true })
   id: string;
 
   @Prop({ required: true })

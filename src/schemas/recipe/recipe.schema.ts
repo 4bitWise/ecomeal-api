@@ -17,7 +17,7 @@ export class IngredientDetail {
 
 @Schema({ strict: false, timestamps: true })
 export class Recipe {
-  @Prop({ required: true })
+  @Prop({ required: true, unique: true })
   id: string;
 
   @Prop({ required: true })

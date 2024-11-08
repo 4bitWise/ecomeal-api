@@ -5,7 +5,7 @@ export type MeasureunitDocument = HydratedDocument<Measureunit>;
 
 @Schema({ strict: false, timestamps: true })
 export class Measureunit {
-  @Prop({ required: true, type: String })
+  @Prop({ required: true, unique: true, type: String })
   id: string;
 
   @Prop({ required: true, type: String })

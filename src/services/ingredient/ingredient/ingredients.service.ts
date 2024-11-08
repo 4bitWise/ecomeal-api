@@ -11,7 +11,7 @@ import {
 } from 'src/dtos/ingredient/ingredient.dto';
 
 @Injectable()
-export class IngredientService {
+export class IngredientsService {
 
   constructor(
     @InjectModel(Ingredient.name)

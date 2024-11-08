@@ -9,15 +9,15 @@ import {
   HttpStatus,
   HttpException,
 } from '@nestjs/common';
-import { IngredientService } from './ingredient.service';
+import { IngredientsService } from './ingredients.service';
 import { CreateIngredientDto, UpdateIngredientDto } from 'src/dtos/ingredient/ingredient.dto';
 import { Ingredient } from 'src/schemas/ingredient/ingredient.schema';
 import { ApiTags } from '@nestjs/swagger';
 
-@ApiTags('ingredient')
+@ApiTags('ingredients')
 @Controller('ingredients')
-export class IngredientController {
-  constructor(private readonly ingredientService: IngredientService) {}
+export class IngredientsController {
+  constructor(private readonly IngredientsService: IngredientsService) {}
 
   @Post()
   async create(
@@ -25,7 +25,7 @@ export class IngredientController {
   ): Promise<Ingredient> {
     try {
       const newIngredient =
-        await this.ingredientService.create(createIngredientDto);
+        await this.IngredientsService.create(createIngredientDto);
       return newIngredient;
     } catch (err) {
       throw new HttpException(
@@ -40,13 +40,13 @@ export class IngredientController {
 
   @Get()
   async findAll(): Promise<Ingredient[]> {
-    return this.ingredientService.findAll();
+    return this.IngredientsService.findAll();
   }
 
   @Get(':id')
   async findOne(@Param('id') id: string): Promise<Ingredient> {
     try {
-      return this.ingredientService.findOne(id);
+      return this.IngredientsService.findOne(id);
     } catch (err) {
       throw new HttpException(
         {
@@ -64,7 +64,7 @@ export class IngredientController {
     @Body() updateIngredientDto: UpdateIngredientDto,
   ): Promise<Ingredient> {
     try {
-      return this.ingredientService.update(id, updateIngredientDto);
+      return this.IngredientsService.update(id, updateIngredientDto);
     } catch (err) {
       throw new HttpException(
         {
@@ -79,7 +79,7 @@ export class IngredientController {
   @Delete(':id')
   async remove(@Param('id') id: string): Promise<Ingredient> {
     try {
-      return this.ingredientService.remove(id);
+      return this.IngredientsService.remove(id);
     } catch (err) {
       throw new HttpException(
         {

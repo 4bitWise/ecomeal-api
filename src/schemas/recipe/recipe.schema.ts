@@ -36,7 +36,7 @@ export class Recipe {
   ingredients: IngredientDetail[];
 
   @Prop({ required: true, type: [String] })
-  instruction: string[];
+  instructions: string[];
 }
 
 export const RecipeSchema = SchemaFactory.createForClass(Recipe);

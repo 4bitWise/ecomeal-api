@@ -1,6 +1,6 @@
 [
     {
-        "_id": "recipe_pancakes",
+        "id": "recipe_pancakes",
         "name": "Pancakes",
         "preparation_time": 15,
         "servings": 1,
@@ -33,7 +33,7 @@
         ]
     },
     {
-        "_id": "recipe_omelette",
+        "id": "recipe_omelette",
         "name": "Omelette au fromage",
         "preparation_time": 10,
         "servings": 1,
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "_id": "recipe_french_toast",
+        "id": "recipe_french_toast",
         "name": "Pain perdu",
         "preparation_time": 15,
         "servings": 1,
@@ -105,7 +105,7 @@
         ]
     },
     {
-        "_id": "recipe_ratatouille",
+        "id": "recipe_ratatouille",
         "name": "Ratatouille",
         "preparation_time": 45,
         "servings": 1,
@@ -149,7 +149,7 @@
         ]
     },
     {
-        "_id": "recipe_mashed_potatoes",
+        "id": "recipe_mashed_potatoes",
         "name": "Purée de pommes de terre",
         "preparation_time": 25,
         "servings": 1,
@@ -182,7 +182,7 @@
         ]
     },
     {
-        "_id": "recipe_quiche",
+        "id": "recipe_quiche",
         "name": "Quiche au fromage",
         "preparation_time": 40,
         "servings": 1,
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "_id": "recipe_rice_pilaf",
+        "id": "recipe_rice_pilaf",
         "name": "Riz Pilaf",
         "preparation_time": 20,
         "servings": 1,
@@ -254,7 +254,7 @@
         ]
     },
     {
-        "_id": "recipe_chocolate_mousse",
+        "id": "recipe_chocolate_mousse",
         "name": "Mousse au chocolat",
         "preparation_time": 30,
         "servings": 1,
@@ -283,7 +283,7 @@
         ]
     },
     {
-        "_id": "recipe_vegetable_soup",
+        "id": "recipe_vegetable_soup",
         "name": "Soupe de légumes",
         "preparation_time": 40,
         "servings": 1,
@@ -322,7 +322,7 @@
         ]
     },
     {
-        "_id": "recipe_caesar_salad",
+        "id": "recipe_caesar_salad",
         "name": "Salade César",
         "preparation_time": 15,
         "servings": 1,
@@ -360,7 +360,7 @@
         ]
     },
     {
-        "_id": "recipe_gratin_dauphinois",
+        "id": "recipe_gratin_dauphinois",
         "name": "Gratin Dauphinois",
         "preparation_time": 60,
         "servings": 1,
@@ -400,7 +400,7 @@
         ]
     },
     {
-        "_id": "recipe_pasta_bolognese",
+        "id": "recipe_pasta_bolognese",
         "name": "Pâtes à la bolognaise",
         "preparation_time": 30,
         "servings": 1,
@@ -444,7 +444,7 @@
         ]
     },
     {
-        "_id": "recipe_salade_niçoise",
+        "id": "recipe_salade_niçoise",
         "name": "Salade Niçoise",
         "preparation_time": 20,
         "servings": 1,
@@ -482,7 +482,7 @@
         ]
     },
     {
-        "_id": "recipe_ratatouille_tartine",
+        "id": "recipe_ratatouille_tartine",
         "name": "Tartine de ratatouille",
         "preparation_time": 20,
         "servings": 1,
@@ -520,7 +520,7 @@
         ]
     },
     {
-        "_id": "recipe_soupe_oignon",
+        "id": "recipe_soupe_oignon",
         "name": "Soupe à l'oignon",
         "preparation_time": 40,
         "servings": 1,
@@ -558,7 +558,7 @@
         ]
     },
     {
-        "_id": "recipe_crepes",
+        "id": "recipe_crepes",
         "name": "Crêpes",
         "preparation_time": 20,
         "servings": 1,
@@ -591,7 +591,7 @@
         ]
     },
     {
-        "_id": "recipe_moules_frites",
+        "id": "recipe_moules_frites",
         "name": "Moules-frites",
         "preparation_time": 30,
         "servings": 1,
@@ -624,7 +624,7 @@
         ]
     },
     {
-        "_id": "recipe_gratin_legumes",
+        "id": "recipe_gratin_legumes",
         "name": "Gratin de légumes",
         "preparation_time": 35,
         "servings": 1,
@@ -658,7 +658,7 @@
         ]
     },
     {
-        "_id": "recipe_blanc_poulet_salade",
+        "id": "recipe_blanc_poulet_salade",
         "name": "Blanc de poulet et salade",
         "preparation_time": 20,
         "servings": 1,
@@ -690,7 +690,7 @@
         ]
     },
     {
-        "_id": "recipe_boeuf_bourguignon",
+        "id": "recipe_boeuf_bourguignon",
         "name": "Bœuf Bourguignon",
         "preparation_time": 180,
         "servings": 1,
@@ -728,7 +728,7 @@
         ]
     },
     {
-        "_id": "recipe_potage_poireaux_pommes_terre",
+        "id": "recipe_potage_poireaux_pommes_terre",
         "name": "Potage aux poireaux et pommes de terre",
         "preparation_time": 30,
         "servings": 1,
@@ -761,7 +761,7 @@
         ]
     },
     {
-        "_id": "recipe_poulet_roti",
+        "id": "recipe_poulet_roti",
         "name": "Poulet rôti",
         "preparation_time": 60,
         "servings": 1,
@@ -794,7 +794,7 @@
         ]
     },
     {
-        "_id": "recipe_tartiflette",
+        "id": "recipe_tartiflette",
         "name": "Tartiflette",
         "preparation_time": 50,
         "servings": 1,
@@ -829,7 +829,7 @@
         ]
     },
     {
-        "_id": "recipe_risotto_champignons",
+        "id": "recipe_risotto_champignons",
         "name": "Risotto aux champignons",
         "preparation_time": 30,
         "servings": 1,
@@ -868,7 +868,7 @@
         ]
     },
     {
-        "_id": "recipe_clafoutis_cerises",
+        "id": "recipe_clafoutis_cerises",
         "name": "Clafoutis aux cerises",
         "preparation_time": 35,
         "servings": 1,
@@ -906,7 +906,7 @@
         ]
     },
     {
-        "_id": "recipe_croque_monsieur",
+        "id": "recipe_croque_monsieur",
         "name": "Croque-Monsieur",
         "preparation_time": 10,
         "servings": 1,
@@ -939,7 +939,7 @@
         ]
     },
     {
-        "_id": "recipe_roquefort_poire_noix",
+        "id": "recipe_roquefort_poire_noix",
         "name": "Salade roquefort, poire et noix",
         "preparation_time": 10,
         "servings": 1,
@@ -972,7 +972,7 @@
         ]
     },
     {
-        "_id": "recipe_soupe_poisson",
+        "id": "recipe_soupe_poisson",
         "name": "Soupe de poisson",
         "preparation_time": 40,
         "servings": 1,
@@ -1010,7 +1010,7 @@
         ]
     },
     {
-        "_id": "recipe_tarte_aux_pommes",
+        "id": "recipe_tarte_aux_pommes",
         "name": "Tarte aux pommes",
         "preparation_time": 45,
         "servings": 1,
@@ -1044,7 +1044,7 @@
         ]
     },
     {
-        "_id": "recipe_gratin_fenouil",
+        "id": "recipe_gratin_fenouil",
         "name": "Gratin de fenouil",
         "preparation_time": 35,
         "servings": 1,
@@ -1078,7 +1078,7 @@
         ]
     },
     {
-        "_id": "recipe_blanquette_de_veau",
+        "id": "recipe_blanquette_de_veau",
         "name": "Blanquette de veau",
         "preparation_time": 90,
         "servings": 1,
@@ -1117,7 +1117,7 @@
         ]
     },
     {
-        "_id": "recipe_raclette",
+        "id": "recipe_raclette",
         "name": "Raclette",
         "preparation_time": 15,
         "servings": 1,
@@ -1150,7 +1150,7 @@
         ]
     },
     {
-        "_id": "recipe_beurre_noisette_poisson",
+        "id": "recipe_beurre_noisette_poisson",
         "name": "Poisson au beurre noisette",
         "preparation_time": 15,
         "servings": 1,
@@ -1183,7 +1183,7 @@
         ]
     },
     {
-        "_id": "recipe_risotto_asperges",
+        "id": "recipe_risotto_asperges",
         "name": "Risotto aux asperges",
         "preparation_time": 35,
         "servings": 1,
@@ -1221,7 +1221,7 @@
         ]
     },
     {
-        "_id": "recipe_flan_patissier",
+        "id": "recipe_flan_patissier",
         "name": "Flan pâtissier",
         "preparation_time": 50,
         "servings": 1,
@@ -1254,7 +1254,7 @@
         ]
     },
     {
-        "_id": "recipe_melon_jambon",
+        "id": "recipe_melon_jambon",
         "name": "Melon au jambon",
         "preparation_time": 5,
         "servings": 1,
@@ -1277,7 +1277,7 @@
         ]
     },
     {
-        "_id": "recipe_tarte_tatin",
+        "id": "recipe_tarte_tatin",
         "name": "Tarte Tatin",
         "preparation_time": 40,
         "servings": 1,
@@ -1311,7 +1311,7 @@
         ]
     },
     {
-        "_id": "recipe_choucroute",
+        "id": "recipe_choucroute",
         "name": "Choucroute",
         "preparation_time": 90,
         "servings": 1,
@@ -1344,7 +1344,7 @@
         ]
     },
     {
-        "_id": "recipe_crumble_pommes",
+        "id": "recipe_crumble_pommes",
         "name": "Crumble aux pommes",
         "preparation_time": 30,
         "servings": 1,
@@ -1378,7 +1378,7 @@
         ]
     },
     {
-        "_id": "recipe_endives_jambon",
+        "id": "recipe_endives_jambon",
         "name": "Endives au jambon",
         "preparation_time": 40,
         "servings": 1,
@@ -1411,7 +1411,7 @@
         ]
     },
     {
-        "_id": "recipe_steak_frites",
+        "id": "recipe_steak_frites",
         "name": "Steak frites",
         "preparation_time": 20,
         "servings": 1,
@@ -1445,7 +1445,7 @@
         ]
     },
     {
-        "_id": "recipe_boeuf_carottes",
+        "id": "recipe_boeuf_carottes",
         "name": "Bœuf aux carottes",
         "preparation_time": 120,
         "servings": 1,
@@ -1483,7 +1483,7 @@
         ]
     },
     {
-        "_id": "recipe_ratatouille_fraiche",
+        "id": "recipe_ratatouille_fraiche",
         "name": "Ratatouille fraîche",
         "preparation_time": 45,
         "servings": 1,
@@ -1521,7 +1521,7 @@
         ]
     },
     {
-        "_id": "recipe_potatoes_gratin",
+        "id": "recipe_potatoes_gratin",
         "name": "Gratin de pommes de terre",
         "preparation_time": 45,
         "servings": 1,
@@ -1555,7 +1555,7 @@
         ]
     },
     {
-        "_id": "recipe_soupe_carottes",
+        "id": "recipe_soupe_carottes",
         "name": "Soupe de carottes",
         "preparation_time": 30,
         "servings": 1,
@@ -1588,7 +1588,7 @@
         ]
     },
     {
-        "_id": "recipe_tartare_boeuf",
+        "id": "recipe_tartare_boeuf",
         "name": "Tartare de bœuf",
         "preparation_time": 15,
         "servings": 1,
@@ -1621,7 +1621,7 @@
         ]
     },
     {
-        "_id": "recipe_poelee_legumes",
+        "id": "recipe_poelee_legumes",
         "name": "Poêlée de légumes",
         "preparation_time": 20,
         "servings": 1,
@@ -1654,7 +1654,7 @@
         ]
     },
     {
-        "_id": "recipe_coquilles_saint_jacques",
+        "id": "recipe_coquilles_saint_jacques",
         "name": "Coquilles Saint-Jacques",
         "preparation_time": 20,
         "servings": 1,
@@ -1687,7 +1687,7 @@
         ]
     },
     {
-        "_id": "recipe_boudin_aux_pommes",
+        "id": "recipe_boudin_aux_pommes",
         "name": "Boudin aux pommes",
         "preparation_time": 20,
         "servings": 1,
@@ -1720,7 +1720,7 @@
         ]
     },
     {
-        "_id": "recipe_endives_gratin",
+        "id": "recipe_endives_gratin",
         "name": "Endives au gratin",
         "preparation_time": 40,
         "servings": 1,

@@ -1,6 +1,6 @@
 [
     {
-        "_id": "weight_g",
+        "id": "weight_g",
         "unit_name": "Gram",
         "unit_symbol": "g",
         "measurement_type": "weight",
@@ -8,7 +8,7 @@
         "base_unit_id": null
     },
     {
-        "_id": "weight_kg",
+        "id": "weight_kg",
         "unit_name": "Kilogram",
         "unit_symbol": "kg",
         "measurement_type": "weight",
@@ -16,7 +16,7 @@
         "base_unit_id": "weight_g"
     },
     {
-        "_id": "weight_mg",
+        "id": "weight_mg",
         "unit_name": "Milligram",
         "unit_symbol": "mg",
         "measurement_type": "weight",
@@ -24,7 +24,7 @@
         "base_unit_id": "weight_g"
     },
     {
-        "_id": "volume_ml",
+        "id": "volume_ml",
         "unit_name": "Milliliter",
         "unit_symbol": "ml",
         "measurement_type": "volume",
@@ -32,7 +32,7 @@
         "base_unit_id": null
     },
     {
-        "_id": "volume_cl",
+        "id": "volume_cl",
         "unit_name": "Centiliter",
         "unit_symbol": "cl",
         "measurement_type": "volume",
@@ -40,7 +40,7 @@
         "base_unit_id": "volume_ml"
     },
     {
-        "_id": "volume_L",
+        "id": "volume_L",
         "unit_name": "Liter",
         "unit_symbol": "L",
         "measurement_type": "volume",
@@ -48,7 +48,7 @@
         "base_unit_id": "volume_ml"
     },
     {
-        "_id": "volume_cup",
+        "id": "volume_cup",
         "unit_name": "Cup",
         "unit_symbol": "cup",
         "measurement_type": "volume",
@@ -56,7 +56,7 @@
         "base_unit_id": "volume_ml"
     },
     {
-        "_id": "weight_tsp",
+        "id": "weight_tsp",
         "unit_name": "Teaspoon",
         "unit_symbol": "tsp",
         "measurement_type": "weight",
@@ -64,7 +64,7 @@
         "base_unit_id": "weight_g"
     },
     {
-        "_id": "volume_tsp",
+        "id": "volume_tsp",
         "unit_name": "Teaspoon",
         "unit_symbol": "tsp",
         "measurement_type": "volume",
@@ -72,7 +72,7 @@
         "base_unit_id": "volume_ml"
     },
     {
-        "_id": "weight_tbsp",
+        "id": "weight_tbsp",
         "unit_name": "Tablespoon",
         "unit_symbol": "tbsp",
         "measurement_type": "weight",
@@ -80,7 +80,7 @@
         "base_unit_id": "weight_g"
     },
     {
-        "_id": "volume_tbsp",
+        "id": "volume_tbsp",
         "unit_name": "Tablespoon",
         "unit_symbol": "tbsp",
         "measurement_type": "volume",
@@ -88,7 +88,7 @@
         "base_unit_id": "volume_ml"
     },
     {
-        "_id": "length_cm",
+        "id": "length_cm",
         "unit_name": "Centimeter",
         "unit_symbol": "cm",
         "measurement_type": "length",
@@ -96,7 +96,7 @@
         "base_unit_id": null
     },
     {
-        "_id": "length_mm",
+        "id": "length_mm",
         "unit_name": "Millimeter",
         "unit_symbol": "mm",
         "measurement_type": "length",
@@ -104,7 +104,7 @@
         "base_unit_id": "length_cm"
     },
     {
-        "_id": "length_m",
+        "id": "length_m",
         "unit_name": "Meter",
         "unit_symbol": "m",
         "measurement_type": "length",
@@ -112,7 +112,7 @@
         "base_unit_id": "length_cm"
     },
     {
-        "_id": "count_pc",
+        "id": "count_pc",
         "unit_name": "Piece",
         "unit_symbol": "pc",
         "measurement_type": "count",

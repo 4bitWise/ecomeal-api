@@ -21,7 +21,7 @@ class IngredientDetailDto {
 export class CreateRecipeDto {
   @ApiProperty()
   @IsString()
-  _id: string;
+  id: string;
 
   @ApiProperty()
   @IsString()

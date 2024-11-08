@@ -1,671 +1,664 @@
 [
     {
-        "_id": "ingredient_flour",
+        "id": "ingredient_flour",
         "name": "Flour",
         "price": 0.0015,
         "unit_id": "weight_g",
         "category": "baking"
     },
     {
-        "_id": "ingredient_sugar",
+        "id": "ingredient_sugar",
         "name": "Sugar",
         "price": 0.0018,
         "unit_id": "weight_g",
         "category": "baking"
     },
     {
-        "_id": "ingredient_butter",
+        "id": "ingredient_butter",
         "name": "Butter",
         "price": 0.003,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_eggs",
+        "id": "ingredient_eggs",
         "name": "Eggs",
         "price": 0.25,
         "unit_id": "count_pc",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_olive_oil",
-        "name": "Olive Oil",
-        "price": 0.005,
-        "unit_id": "volume_ml",
-        "category": "oils"
-    },
-    {
-        "_id": "ingredient_garlic",
+        "id": "ingredient_garlic",
         "name": "Garlic",
         "price": 0.01,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_tomatoes",
+        "id": "ingredient_tomatoes",
         "name": "Tomatoes",
         "price": 0.003,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_chicken_breast",
+        "id": "ingredient_chicken_breast",
         "name": "Chicken Breast",
         "price": 0.008,
         "unit_id": "weight_g",
         "category": "meat"
     },
     {
-        "_id": "ingredient_rice",
+        "id": "ingredient_rice",
         "name": "Rice",
         "price": 0.0025,
         "unit_id": "weight_g",
         "category": "grains"
     },
     {
-        "_id": "ingredient_basil",
+        "id": "ingredient_basil",
         "name": "Basil",
         "price": 0.025,
         "unit_id": "weight_g",
         "category": "herbs"
     },
     {
-        "_id": "ingredient_cheddar_cheese",
+        "id": "ingredient_cheddar_cheese",
         "name": "Cheddar Cheese",
         "price": 0.01,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_avocado",
+        "id": "ingredient_avocado",
         "name": "Avocado",
         "price": 2.00,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_mushrooms",
+        "id": "ingredient_mushrooms",
         "name": "Mushrooms",
         "price": 0.005,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_spinach",
+        "id": "ingredient_spinach",
         "name": "Spinach",
         "price": 0.002,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_carrots",
+        "id": "ingredient_carrots",
         "name": "Carrots",
         "price": 0.0018,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_potatoes",
+        "id": "ingredient_potatoes",
         "name": "Potatoes",
         "price": 0.001,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_lemons",
+        "id": "ingredient_lemons",
         "name": "Lemons",
         "price": 0.50,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_bananas",
+        "id": "ingredient_bananas",
         "name": "Bananas",
         "price": 0.30,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_cheese",
+        "id": "ingredient_cheese",
         "name": "Cheese",
         "price": 0.008,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_yogurt",
+        "id": "ingredient_yogurt",
         "name": "Yogurt",
         "price": 0.0032,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_milk",
+        "id": "ingredient_milk",
         "name": "Milk",
         "price": 0.0012,
         "unit_id": "volume_ml",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_bread",
+        "id": "ingredient_bread",
         "name": "Bread",
         "price": 1.00,
         "unit_id": "count_pc",
         "category": "bakery"
     },
     {
-        "_id": "ingredient_onions",
+        "id": "ingredient_onions",
         "name": "Onions",
         "price": 0.002,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_cucumber",
+        "id": "ingredient_cucumber",
         "name": "Cucumber",
         "price": 0.004,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_yogurt_natural",
+        "id": "ingredient_yogurt_natural",
         "name": "Natural Yogurt",
         "price": 0.003,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_chocolate",
+        "id": "ingredient_chocolate",
         "name": "Chocolate",
         "price": 0.015,
         "unit_id": "weight_g",
         "category": "sweets"
     },
     {
-        "_id": "ingredient_coconut_milk",
+        "id": "ingredient_coconut_milk",
         "name": "Coconut Milk",
         "price": 0.007,
         "unit_id": "volume_ml",
         "category": "oils"
     },
     {
-        "_id": "ingredient_peanut_butter",
+        "id": "ingredient_peanut_butter",
         "name": "Peanut Butter",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "oils"
     },
     {
-        "_id": "ingredient_salmon",
+        "id": "ingredient_salmon",
         "name": "Salmon",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "meat"
     },
     {
-        "_id": "ingredient_pasta",
+        "id": "ingredient_pasta",
         "name": "Pasta",
         "price": 0.003,
         "unit_id": "weight_g",
         "category": "grains"
     },
     {
-        "_id": "ingredient_bacon",
+        "id": "ingredient_bacon",
         "name": "Bacon",
         "price": 0.01,
         "unit_id": "weight_g",
         "category": "meat"
     },
     {
-        "_id": "ingredient_avocado_oil",
+        "id": "ingredient_avocado_oil",
         "name": "Avocado Oil",
         "price": 0.008,
         "unit_id": "volume_ml",
         "category": "oils"
     },
     {
-        "_id": "ingredient_paprika",
+        "id": "ingredient_paprika",
         "name": "Paprika",
         "price": 0.015,
         "unit_id": "weight_g",
         "category": "spices"
     },
     {
-        "_id": "ingredient_salt",
+        "id": "ingredient_salt",
         "name": "Salt",
         "price": 0.0005,
         "unit_id": "weight_g",
         "category": "spices"
     },
     {
-        "_id": "ingredient_black_pepper",
+        "id": "ingredient_black_pepper",
         "name": "Black Pepper",
         "price": 0.025,
         "unit_id": "weight_g",
         "category": "spices"
     },
     {
-        "_id": "ingredient_honey",
+        "id": "ingredient_honey",
         "name": "Honey",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "sweets"
     },
     {
-        "_id": "ingredient_kale",
+        "id": "ingredient_kale",
         "name": "Kale",
         "price": 0.005,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_zucchini",
+        "id": "ingredient_zucchini",
         "name": "Zucchini",
         "price": 0.003,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_lentils",
+        "id": "ingredient_lentils",
         "name": "Lentils",
         "price": 0.002,
         "unit_id": "weight_g",
         "category": "grains"
     },
     {
-        "_id": "ingredient_cilantro",
+        "id": "ingredient_cilantro",
         "name": "Cilantro",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "herbs"
     },
     {
-        "_id": "ingredient_parsley",
+        "id": "ingredient_parsley",
         "name": "Parsley",
         "price": 0.015,
         "unit_id": "weight_g",
         "category": "herbs"
     },
     {
-        "_id": "ingredient_oats",
+        "id": "ingredient_oats",
         "name": "Oats",
         "price": 0.002,
         "unit_id": "weight_g",
         "category": "grains"
     },
     {
-        "_id": "ingredient_coriander",
+        "id": "ingredient_coriander",
         "name": "Coriander",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "herbs"
     },
     {
-        "_id": "ingredient_feta_cheese",
+        "id": "ingredient_feta_cheese",
         "name": "Feta Cheese",
         "price": 0.015,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_sesame_seeds",
+        "id": "ingredient_sesame_seeds",
         "name": "Sesame Seeds",
         "price": 0.025,
         "unit_id": "weight_g",
         "category": "seeds"
     },
     {
-        "_id": "ingredient_pineapple",
+        "id": "ingredient_pineapple",
         "name": "Pineapple",
         "price": 0.75,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_mango",
+        "id": "ingredient_mango",
         "name": "Mango",
         "price": 1.00,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_asparagus",
+        "id": "ingredient_asparagus",
         "name": "Asparagus",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_broccoli",
+        "id": "ingredient_broccoli",
         "name": "Broccoli",
         "price": 0.01,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_peas",
+        "id": "ingredient_peas",
         "name": "Peas",
         "price": 0.005,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_raisins",
+        "id": "ingredient_raisins",
         "name": "Raisins",
         "price": 0.01,
         "unit_id": "weight_g",
         "category": "sweets"
     },
     {
-        "_id": "ingredient_tuna",
+        "id": "ingredient_tuna",
         "name": "Tuna",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "meat"
     },
     {
-        "_id": "ingredient_apple",
+        "id": "ingredient_apple",
         "name": "Apple",
         "price": 0.25,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_papaya",
+        "id": "ingredient_papaya",
         "name": "Papaya",
         "price": 1.20,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_sweet_potatoes",
+        "id": "ingredient_sweet_potatoes",
         "name": "Sweet Potatoes",
         "price": 0.006,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_chickpeas",
+        "id": "ingredient_chickpeas",
         "name": "Chickpeas",
         "price": 0.003,
         "unit_id": "weight_g",
         "category": "grains"
     },
     {
-        "_id": "ingredient_mustard",
+        "id": "ingredient_mustard",
         "name": "Mustard",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "spices"
     },
     {
-        "_id": "ingredient_cucumber_pickles",
+        "id": "ingredient_cucumber_pickles",
         "name": "Cucumber Pickles",
         "price": 0.04,
         "unit_id": "weight_g",
         "category": "condiments"
     },
     {
-        "_id": "ingredient_sunflower_oil",
+        "id": "ingredient_sunflower_oil",
         "name": "Sunflower Oil",
         "price": 0.006,
         "unit_id": "volume_ml",
         "category": "oils"
     },
     {
-        "_id": "ingredient_balsamic_vinegar",
+        "id": "ingredient_balsamic_vinegar",
         "name": "Balsamic Vinegar",
         "price": 0.02,
         "unit_id": "volume_ml",
         "category": "condiments"
     },
     {
-        "_id": "ingredient_brown_sugar",
+        "id": "ingredient_brown_sugar",
         "name": "Brown Sugar",
         "price": 0.0015,
         "unit_id": "weight_g",
         "category": "baking"
     },
     {
-        "_id": "ingredient_white_wine_vinegar",
+        "id": "ingredient_white_wine_vinegar",
         "name": "White Wine Vinegar",
         "price": 0.015,
         "unit_id": "volume_ml",
         "category": "condiments"
     },
     {
-        "_id": "ingredient_cabbage",
+        "id": "ingredient_cabbage",
         "name": "Cabbage",
         "price": 0.003,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_lime",
+        "id": "ingredient_lime",
         "name": "Lime",
         "price": 0.50,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_coconut_flakes",
+        "id": "ingredient_coconut_flakes",
         "name": "Coconut Flakes",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "sweets"
     },
     {
-        "_id": "ingredient_mint",
+        "id": "ingredient_mint",
         "name": "Mint",
         "price": 0.03,
         "unit_id": "weight_g",
         "category": "herbs"
     },
     {
-        "_id": "ingredient_cheese_parmesan",
+        "id": "ingredient_cheese_parmesan",
         "name": "Parmesan Cheese",
         "price": 0.03,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_ginger",
+        "id": "ingredient_ginger",
         "name": "Ginger",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_mushroom_dried",
+        "id": "ingredient_mushroom_dried",
         "name": "Dried Mushrooms",
         "price": 0.08,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_pumpkin",
+        "id": "ingredient_pumpkin",
         "name": "Pumpkin",
         "price": 0.005,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_cranberries",
+        "id": "ingredient_cranberries",
         "name": "Cranberries",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_tofu",
+        "id": "ingredient_tofu",
         "name": "Tofu",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "protein"
     },
     {
-        "_id": "ingredient_milk_powder",
+        "id": "ingredient_milk_powder",
         "name": "Milk Powder",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_sweet_chili_sauce",
+        "id": "ingredient_sweet_chili_sauce",
         "name": "Sweet Chili Sauce",
         "price": 0.03,
         "unit_id": "volume_ml",
         "category": "sauces"
     },
     {
-        "_id": "ingredient_black_olive",
+        "id": "ingredient_black_olive",
         "name": "Black Olives",
         "price": 0.05,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_mayonnaise",
+        "id": "ingredient_mayonnaise",
         "name": "Mayonnaise",
         "price": 0.01,
         "unit_id": "volume_ml",
         "category": "condiments"
     },
     {
-        "_id": "ingredient_peach",
+        "id": "ingredient_peach",
         "name": "Peach",
         "price": 0.80,
         "unit_id": "count_pc",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_paprika_smoked",
+        "id": "ingredient_paprika_smoked",
         "name": "Smoked Paprika",
         "price": 0.025,
         "unit_id": "weight_g",
         "category": "spices"
     },
     {
-        "_id": "ingredient_poppy_seeds",
+        "id": "ingredient_poppy_seeds",
         "name": "Poppy Seeds",
         "price": 0.04,
         "unit_id": "weight_g",
         "category": "seeds"
     },
     {
-        "_id": "ingredient_butter_unsalted",
+        "id": "ingredient_butter_unsalted",
         "name": "Unsalted Butter",
         "price": 0.015,
         "unit_id": "weight_g",
         "category": "dairy"
     },
     {
-        "_id": "ingredient_saffron",
+        "id": "ingredient_saffron",
         "name": "Saffron",
         "price": 0.50,
         "unit_id": "weight_g",
         "category": "spices"
     },
     {
-        "_id": "ingredient_olive_oil",
+        "id": "ingredient_olive_oil",
         "name": "Olive Oil",
         "price": 0.008,
         "unit_id": "volume_ml",
         "category": "oils"
     },
     {
-        "_id": "ingredient_cashew_nuts",
+        "id": "ingredient_cashew_nuts",
         "name": "Cashew Nuts",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "nuts"
     },
     {
-        "_id": "ingredient_sunflower_seeds",
+        "id": "ingredient_sunflower_seeds",
         "name": "Sunflower Seeds",
         "price": 0.01,
         "unit_id": "weight_g",
         "category": "seeds"
     },
     {
-        "_id": "ingredient_fennel",
+        "id": "ingredient_fennel",
         "name": "Fennel",
         "price": 0.015,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_lentils_red",
+        "id": "ingredient_lentils_red",
         "name": "Red Lentils",
         "price": 0.002,
         "unit_id": "weight_g",
         "category": "grains"
     },
     {
-        "_id": "ingredient_ketchup",
+        "id": "ingredient_ketchup",
         "name": "Ketchup",
         "price": 0.01,
         "unit_id": "volume_ml",
         "category": "sauces"
     },
     {
-        "_id": "ingredient_pine_nuts",
+        "id": "ingredient_pine_nuts",
         "name": "Pine Nuts",
         "price": 0.10,
         "unit_id": "weight_g",
         "category": "nuts"
     },
     {
-        "_id": "ingredient_tahini",
+        "id": "ingredient_tahini",
         "name": "Tahini",
         "price": 0.04,
         "unit_id": "weight_g",
         "category": "oils"
     },
     {
-        "_id": "ingredient_garlic_powder",
+        "id": "ingredient_garlic_powder",
         "name": "Garlic Powder",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "spices"
     },
     {
-        "_id": "ingredient_dried_tomatoes",
+        "id": "ingredient_dried_tomatoes",
         "name": "Dried Tomatoes",
         "price": 0.05,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_arugula",
+        "id": "ingredient_arugula",
         "name": "Arugula",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "vegetables"
     },
     {
-        "_id": "ingredient_lemon_zest",
+        "id": "ingredient_lemon_zest",
         "name": "Lemon Zest",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "fruits"
     },
     {
-        "_id": "ingredient_bacon_bits",
+        "id": "ingredient_bacon_bits",
         "name": "Bacon Bits",
         "price": 0.02,
         "unit_id": "weight_g",
         "category": "meat"
     },
     {
-        "_id": "ingredient_quinoa",
+        "id": "ingredient_quinoa",
         "name": "Quinoa",
         "price": 0.004,
         "unit_id": "weight_g",
         "category": "grains"
     },
     {
-        "_id": "ingredient_white_chocolate",
+        "id": "ingredient_white_chocolate",
         "name": "White Chocolate",
         "price": 0.02,
         "unit_id": "weight_g",

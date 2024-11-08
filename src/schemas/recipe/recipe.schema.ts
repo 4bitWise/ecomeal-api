@@ -40,4 +40,3 @@ export class Recipe {
 }
 
 export const RecipeSchema = SchemaFactory.createForClass(Recipe);
-export const IngredientDetailSchema = SchemaFactory.createForClass(IngredientDetail);

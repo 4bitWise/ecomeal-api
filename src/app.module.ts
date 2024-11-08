@@ -11,6 +11,12 @@ import {
 import { Recipe, RecipeSchema } from './schemas/recipe/recipe.schema';
 import { RecipesController } from './services/recipe/recipes.controller';
 import { RecipesService } from './services/recipe/recipes.service';
+import {
+  Measureunit,
+  MeasureunitSchema,
+} from './schemas/measureunit/measureunit.schema';
+import { MeasureunitsController } from './services/measureunit/measureunits/measureunits.controller';
+import { MeasureunitsService } from './services/measureunit/measureunits/measureunits.service';
 
 @Module({
   imports: [
@@ -19,8 +25,21 @@ import { RecipesService } from './services/recipe/recipes.service';
       { name: Ingredient.name, schema: IngredientSchema },
     ]),
     MongooseModule.forFeature([{ name: Recipe.name, schema: RecipeSchema }]),
+    MongooseModule.forFeature([
+      { name: Measureunit.name, schema: MeasureunitSchema },
+    ]),
   ],
-  controllers: [AppController, IngredientsController, RecipesController],
-  providers: [AppService, IngredientsService, RecipesService],
+  controllers: [
+    AppController,
+    IngredientsController,
+    RecipesController,
+    MeasureunitsController,
+  ],
+  providers: [
+    AppService,
+    IngredientsService,
+    RecipesService,
+    MeasureunitsService,
+  ],
 })
 export class AppModule {}

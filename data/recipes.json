@@ -1,0 +1,1756 @@
+[
+    {
+        "_id": "recipe_pancakes",
+        "name": "Pancakes",
+        "preparation_time": 15,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 75,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Dans un bol, mélanger la farine et le lait jusqu'à obtenir une pâte lisse.",
+            "Ajouter l'œuf et le beurre fondu, puis fouetter bien.",
+            "Faire chauffer une poêle antiadhésive à feu moyen. Verser une petite louche de pâte et cuire chaque pancake environ 2-3 minutes de chaque côté, jusqu'à ce qu'il soit doré."
+        ]
+    },
+    {
+        "_id": "recipe_omelette",
+        "name": "Omelette au fromage",
+        "preparation_time": 10,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 2,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 0.5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_black_pepper",
+                "quantity": 0.25,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Dans un bol, battre les œufs avec le sel et le poivre.",
+            "Faire chauffer une poêle avec un peu d'huile ou de beurre à feu moyen.",
+            "Verser les œufs battus et cuire 2-3 minutes sans remuer jusqu'à ce que l'omelette soit prise.",
+            "Ajouter le fromage râpé, plier l'omelette en deux, et servir immédiatement."
+        ]
+    },
+    {
+        "_id": "recipe_french_toast",
+        "name": "Pain perdu",
+        "preparation_time": 15,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_bread",
+                "quantity": 2,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 50,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_sugar",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Dans un bol, mélanger le lait, l'œuf et le sucre.",
+            "Tremper les tranches de pain dans le mélange jusqu'à ce qu'elles soient bien imbibées.",
+            "Faire fondre le beurre dans une poêle à feu moyen et faire dorer les tranches de pain pendant 2 minutes de chaque côté. Servir chaud."
+        ]
+    },
+    {
+        "_id": "recipe_ratatouille",
+        "name": "Ratatouille",
+        "preparation_time": 45,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 75,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_zucchini",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_bell_pepper",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 7.5,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 2.5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Couper tous les légumes en dés.",
+            "Faire chauffer l'huile d'olive dans une casserole à feu moyen.",
+            "Ajouter les oignons et l'ail, puis faire revenir pendant 5 minutes jusqu'à ce qu'ils soient tendres.",
+            "Ajouter les autres légumes, couvrir et cuire à feu doux pendant 30 minutes en remuant de temps en temps. Servir chaud."
+        ]
+    },
+    {
+        "_id": "recipe_mashed_potatoes",
+        "name": "Purée de pommes de terre",
+        "preparation_time": 25,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 125,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 25,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 12.5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 0.5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Éplucher et couper les pommes de terre en morceaux.",
+            "Les faire cuire dans de l'eau bouillante salée pendant 20 minutes jusqu'à ce qu'elles soient tendres.",
+            "Égoutter et écraser les pommes de terre, puis ajouter le lait chaud et le beurre. Mélanger jusqu'à obtenir une purée lisse."
+        ]
+    },
+    {
+        "_id": "recipe_quiche",
+        "name": "Quiche au fromage",
+        "preparation_time": 40,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 62.5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 31.25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 50,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Mélanger la farine et le beurre pour former une pâte.",
+            "Étaler la pâte dans un moule à tarte.",
+            "Dans un bol, fouetter l'œuf avec le lait et le fromage.",
+            "Verser le mélange dans le moule et cuire au four à 180°C pendant 30 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_rice_pilaf",
+        "name": "Riz Pilaf",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_rice",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 12.5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 0.25,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire revenir les oignons dans l'huile d'olive dans une casserole.",
+            "Ajouter le riz et remuer pendant 2 minutes.",
+            "Ajouter de l'eau (environ 75 ml), assaisonner de sel et laisser mijoter à couvert pendant 15 minutes, jusqu'à ce que le riz soit tendre."
+        ]
+    },
+    {
+        "_id": "recipe_chocolate_mousse",
+        "name": "Mousse au chocolat",
+        "preparation_time": 30,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_chocolate",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_sugar",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire fondre le chocolat au bain-marie.",
+            "Séparer le blanc et le jaune d'œuf.",
+            "Incorporer le jaune au chocolat fondu. Battre le blanc en neige avec le sucre, puis l'incorporer délicatement au mélange chocolaté.",
+            "Réfrigérer pendant au moins 2 heures avant de servir."
+        ]
+    },
+    {
+        "_id": "recipe_vegetable_soup",
+        "name": "Soupe de légumes",
+        "preparation_time": 40,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_carrots",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 12.5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 1.25,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Éplucher et couper les légumes en morceaux.",
+            "Dans une grande casserole, faire revenir l'ail et l'oignon dans un peu d'huile.",
+            "Ajouter les autres légumes et couvrir d'eau.",
+            "Laisser mijoter pendant 30 minutes à feu moyen, puis mixer pour une consistance lisse si désiré."
+        ]
+    },
+    {
+        "_id": "recipe_caesar_salad",
+        "name": "Salade César",
+        "preparation_time": 15,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_lettuce",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_chicken_breast",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 12.5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_bread",
+                "quantity": 0.25,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 0.25,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Griller le poulet et le couper en tranches.",
+            "Déchirer la laitue, ajouter des croûtons faits avec le pain grillé et parsemer de fromage râpé.",
+            "Ajouter les morceaux de poulet grillé, mélanger avec une vinaigrette César."
+        ]
+    },
+    {
+        "_id": "recipe_gratin_dauphinois",
+        "name": "Gratin Dauphinois",
+        "preparation_time": 60,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 50,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 2,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Éplucher et couper les pommes de terre en fines rondelles.",
+            "Frotter un plat à gratin avec une gousse d'ail, puis le beurrer.",
+            "Disposer les rondelles de pommes de terre dans le plat, verser le lait et saupoudrer de fromage.",
+            "Cuire au four pendant 45 minutes jusqu'à ce que le dessus soit doré."
+        ]
+    },
+    {
+        "_id": "recipe_pasta_bolognese",
+        "name": "Pâtes à la bolognaise",
+        "preparation_time": 30,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_pasta",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 2,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_beef",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire chauffer l'huile dans une poêle et y faire revenir l'oignon et l'ail.",
+            "Ajouter la viande hachée et cuire jusqu'à ce qu'elle soit dorée.",
+            "Ajouter les tomates, assaisonner et laisser mijoter 15 minutes.",
+            "Cuire les pâtes dans de l'eau bouillante salée, égoutter, et servir avec la sauce."
+        ]
+    },
+    {
+        "_id": "recipe_salade_niçoise",
+        "name": "Salade Niçoise",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_lettuce",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_black_olive",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_tuna",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Cuire l'œuf dur pendant 10 minutes, puis le couper en quartiers.",
+            "Disposer la laitue, les tomates, l'œuf, les olives et le thon dans une assiette.",
+            "Assaisonner avec une vinaigrette au choix."
+        ]
+    },
+    {
+        "_id": "recipe_ratatouille_tartine",
+        "name": "Tartine de ratatouille",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_bread",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_zucchini",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_bell_pepper",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Couper les légumes en petits dés et les faire revenir dans une poêle avec un peu d'huile pendant 10 minutes.",
+            "Toaster le pain et disposer les légumes cuits dessus.",
+            "Servir chaud avec un peu de sel et de poivre."
+        ]
+    },
+    {
+        "_id": "recipe_soupe_oignon",
+        "name": "Soupe à l'oignon",
+        "preparation_time": 40,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_bread",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Émincer les oignons et les faire revenir dans du beurre jusqu'à ce qu'ils soient dorés.",
+            "Ajouter la farine, bien mélanger, puis ajouter de l'eau et laisser mijoter 30 minutes.",
+            "Servir avec une tranche de pain grillée et du fromage râpé."
+        ]
+    },
+    {
+        "_id": "recipe_crepes",
+        "name": "Crêpes",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 100,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Dans un bol, mélanger la farine, le lait et l'œuf jusqu'à obtenir une pâte lisse.",
+            "Faire chauffer une poêle et y verser une petite quantité de pâte.",
+            "Cuire chaque crêpe 1-2 minutes de chaque côté."
+        ]
+    },
+    {
+        "_id": "recipe_moules_frites",
+        "name": "Moules-frites",
+        "preparation_time": 30,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_mussels",
+                "quantity": 200,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Nettoyer les moules et les cuire à feu vif avec de l'ail et un peu d'huile.",
+            "Couper les pommes de terre en frites et les faire frire jusqu'à ce qu'elles soient dorées.",
+            "Servir les moules avec les frites."
+        ]
+    },
+    {
+        "_id": "recipe_gratin_legumes",
+        "name": "Gratin de légumes",
+        "preparation_time": 35,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_zucchini",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Couper les légumes en rondelles et les disposer dans un plat à gratin.",
+            "Saupoudrer de fromage râpé et arroser d'un filet d'huile d'olive.",
+            "Cuire au four pendant 25 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_blanc_poulet_salade",
+        "name": "Blanc de poulet et salade",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_chicken_breast",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_lettuce",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Cuire le blanc de poulet à la poêle pendant 10 minutes jusqu'à ce qu'il soit bien doré.",
+            "Servir avec la salade de laitue et de tomates assaisonnée d'huile d'olive."
+        ]
+    },
+    {
+        "_id": "recipe_boeuf_bourguignon",
+        "name": "Bœuf Bourguignon",
+        "preparation_time": 180,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_beef",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_carrots",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 2,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_red_wine",
+                "quantity": 50,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Faire revenir le bœuf avec les oignons, l'ail et les carottes dans une cocotte.",
+            "Ajouter le vin rouge et laisser mijoter pendant 2 heures 30 à feu doux.",
+            "Servir chaud avec des pommes de terre ou du pain."
+        ]
+    },
+    {
+        "_id": "recipe_potage_poireaux_pommes_terre",
+        "name": "Potage aux poireaux et pommes de terre",
+        "preparation_time": 30,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_leek",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Éplucher et couper les pommes de terre et le poireau.",
+            "Faire fondre le beurre dans une casserole, ajouter l'oignon, le poireau et faire revenir pendant 5 minutes.",
+            "Ajouter les pommes de terre et couvrir d'eau. Laisser mijoter 20 minutes, puis mixer le potage."
+        ]
+    },
+    {
+        "_id": "recipe_poulet_roti",
+        "name": "Poulet rôti",
+        "preparation_time": 60,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_chicken_breast",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 200°C.",
+            "Placer le blanc de poulet dans un plat, ajouter l'ail, le sel et l'huile d'olive.",
+            "Cuire au four pendant 45 minutes en arrosant le poulet avec son jus à mi-cuisson."
+        ]
+    },
+    {
+        "_id": "recipe_tartiflette",
+        "name": "Tartiflette",
+        "preparation_time": 50,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_bacon",
+                "quantity": 30,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Faire cuire les pommes de terre dans de l'eau bouillante pendant 15 minutes, puis les couper en rondelles.",
+            "Faire revenir les oignons et les lardons à la poêle.",
+            "Disposer les pommes de terre dans un plat, ajouter les oignons et lardons, puis le fromage.",
+            "Cuire au four pendant 20 minutes jusqu'à ce que le fromage soit fondu et doré."
+        ]
+    },
+    {
+        "_id": "recipe_risotto_champignons",
+        "name": "Risotto aux champignons",
+        "preparation_time": 30,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_rice",
+                "quantity": 80,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_mushrooms",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 15,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Faire chauffer l'huile d'olive dans une poêle et y faire revenir l'oignon et les champignons.",
+            "Ajouter le riz et remuer jusqu'à ce qu'il soit translucide.",
+            "Ajouter de l'eau progressivement en remuant, jusqu'à ce que le riz soit cuit et crémeux.",
+            "Incorporer le fromage à la fin pour un risotto onctueux."
+        ]
+    },
+    {
+        "_id": "recipe_clafoutis_cerises",
+        "name": "Clafoutis aux cerises",
+        "preparation_time": 35,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_cherries",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 50,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_sugar",
+                "quantity": 15,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Dans un bol, mélanger la farine, le lait, l'œuf et le sucre jusqu'à obtenir une pâte lisse.",
+            "Verser la pâte dans un moule, ajouter les cerises et cuire pendant 25 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_croque_monsieur",
+        "name": "Croque-Monsieur",
+        "preparation_time": 10,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_bread",
+                "quantity": 2,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_ham",
+                "quantity": 30,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Beurrer une tranche de pain, ajouter le jambon et le fromage, puis recouvrir avec l'autre tranche.",
+            "Enfourner pendant 5-10 minutes jusqu'à ce que le fromage soit fondu."
+        ]
+    },
+    {
+        "_id": "recipe_roquefort_poire_noix",
+        "name": "Salade roquefort, poire et noix",
+        "preparation_time": 10,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_lettuce",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_pear",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_walnuts",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Couper la poire en tranches fines.",
+            "Dans un bol, mélanger la laitue, les morceaux de poire, le roquefort émietté et les noix.",
+            "Servir avec une vinaigrette de votre choix."
+        ]
+    },
+    {
+        "_id": "recipe_soupe_poisson",
+        "name": "Soupe de poisson",
+        "preparation_time": 40,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_fish",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 2,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Faire revenir l'oignon et l'ail dans l'huile d'olive.",
+            "Ajouter le poisson et les tomates, couvrir d'eau.",
+            "Laisser mijoter pendant 30 minutes, puis mixer la soupe."
+        ]
+    },
+    {
+        "_id": "recipe_tarte_aux_pommes",
+        "name": "Tarte aux pommes",
+        "preparation_time": 45,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_apples",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_sugar",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Préparer une pâte avec la farine, le beurre et une pincée de sel.",
+            "Étaler la pâte, ajouter les pommes en tranches fines et saupoudrer de sucre.",
+            "Cuire au four pendant 30 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_gratin_fenouil",
+        "name": "Gratin de fenouil",
+        "preparation_time": 35,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_fennel",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Couper le fenouil en tranches fines et les disposer dans un plat à gratin.",
+            "Arroser d'huile d'olive, ajouter du sel et parsemer de fromage.",
+            "Cuire au four pendant 25 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_blanquette_de_veau",
+        "name": "Blanquette de veau",
+        "preparation_time": 90,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_veal",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_carrots",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_mushrooms",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire revenir le veau dans une cocotte avec du beurre jusqu'à ce qu'il soit doré.",
+            "Ajouter les carottes et les oignons en morceaux, couvrir d'eau et laisser mijoter 1h.",
+            "Ajouter les champignons, et laisser cuire encore 15 minutes.",
+            "Servir avec du riz ou des pommes de terre."
+        ]
+    },
+    {
+        "_id": "recipe_raclette",
+        "name": "Raclette",
+        "preparation_time": 15,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_ham",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_black_pepper",
+                "quantity": 0.5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Cuire les pommes de terre à l'eau pendant 20 minutes jusqu'à ce qu'elles soient tendres.",
+            "Faire fondre le fromage à raclette dans un appareil à raclette.",
+            "Servir les pommes de terre avec le fromage fondu, le jambon et du poivre."
+        ]
+    },
+    {
+        "_id": "recipe_beurre_noisette_poisson",
+        "name": "Poisson au beurre noisette",
+        "preparation_time": 15,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_fish",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_lemon_zest",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire cuire le poisson à la poêle 3-4 minutes de chaque côté.",
+            "Dans une autre poêle, faire fondre le beurre jusqu'à ce qu'il devienne noisette.",
+            "Ajouter le zeste de citron, verser le beurre sur le poisson et servir chaud."
+        ]
+    },
+    {
+        "_id": "recipe_risotto_asperges",
+        "name": "Risotto aux asperges",
+        "preparation_time": 35,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_rice",
+                "quantity": 80,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_asparagus",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 15,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Faire revenir l'oignon et les asperges dans l'huile d'olive.",
+            "Ajouter le riz, remuer, puis ajouter de l'eau progressivement en remuant jusqu'à ce que le riz soit crémeux.",
+            "Incorporer le fromage et servir immédiatement."
+        ]
+    },
+    {
+        "_id": "recipe_flan_patissier",
+        "name": "Flan pâtissier",
+        "preparation_time": 50,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 100,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_sugar",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 15,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_eggs",
+                "quantity": 1,
+                "unit_id": "count_pc"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Mélanger la farine, le sucre, l'œuf et le lait pour obtenir une pâte lisse.",
+            "Verser dans un moule et cuire pendant 30-35 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_melon_jambon",
+        "name": "Melon au jambon",
+        "preparation_time": 5,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_melon",
+                "quantity": 0.5,
+                "unit_id": "count_pc"
+            },
+            {
+                "ingredient_id": "ingredient_ham",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Couper le melon en deux, retirer les graines et couper la chair en tranches.",
+            "Disposer les tranches de melon sur une assiette et ajouter les tranches de jambon par-dessus.",
+            "Servir frais."
+        ]
+    },
+    {
+        "_id": "recipe_tarte_tatin",
+        "name": "Tarte Tatin",
+        "preparation_time": 40,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_apples",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_sugar",
+                "quantity": 15,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Dans une poêle, faire caraméliser le sucre avec le beurre, puis ajouter les pommes.",
+            "Préparer une pâte avec la farine et l'eau, étaler sur les pommes et enfourner 25 minutes.",
+            "Retourner la tarte avant de servir."
+        ]
+    },
+    {
+        "_id": "recipe_choucroute",
+        "name": "Choucroute",
+        "preparation_time": 90,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_cabbage",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_sausage",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_black_pepper",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire cuire le chou dans de l'eau pendant 30 minutes.",
+            "Ajouter les pommes de terre et les saucisses, cuire encore 30 minutes.",
+            "Servir chaud avec du poivre."
+        ]
+    },
+    {
+        "_id": "recipe_crumble_pommes",
+        "name": "Crumble aux pommes",
+        "preparation_time": 30,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_apples",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_flour",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 15,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_sugar",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Disposer les pommes en morceaux dans un plat à gratin.",
+            "Mélanger la farine, le beurre et le sucre pour former un crumble.",
+            "Saupoudrer le crumble sur les pommes et cuire 20 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_endives_jambon",
+        "name": "Endives au jambon",
+        "preparation_time": 40,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_endive",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_ham",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Cuire les endives à l'eau pendant 20 minutes.",
+            "Enrouler chaque endive dans une tranche de jambon, disposer dans un plat à gratin.",
+            "Saupoudrer de fromage, ajouter des morceaux de beurre et cuire au four à 180°C pendant 15 minutes."
+        ]
+    },
+    {
+        "_id": "recipe_steak_frites",
+        "name": "Steak frites",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_beef",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_black_pepper",
+                "quantity": 0.5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Éplucher et couper les pommes de terre en bâtonnets pour faire des frites.",
+            "Faire frire les pommes de terre jusqu'à ce qu'elles soient dorées et croustillantes.",
+            "Cuire le steak dans une poêle chaude pendant 3-4 minutes de chaque côté, assaisonner avec du sel et du poivre.",
+            "Servir le steak avec les frites."
+        ]
+    },
+    {
+        "_id": "recipe_boeuf_carottes",
+        "name": "Bœuf aux carottes",
+        "preparation_time": 120,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_beef",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_carrots",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_black_pepper",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire revenir le bœuf, l'oignon et l'ail dans une cocotte jusqu'à ce qu'ils soient dorés.",
+            "Ajouter les carottes en rondelles et de l'eau pour couvrir.",
+            "Laisser mijoter à feu doux pendant 2 heures, en remuant de temps en temps."
+        ]
+    },
+    {
+        "_id": "recipe_ratatouille_fraiche",
+        "name": "Ratatouille fraîche",
+        "preparation_time": 45,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_tomatoes",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_zucchini",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_eggplant",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_bell_pepper",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Couper les légumes en dés.",
+            "Faire revenir l'oignon dans une casserole avec un peu d'huile d'olive.",
+            "Ajouter les autres légumes et cuire à feu doux pendant 30 minutes, en remuant régulièrement."
+        ]
+    },
+    {
+        "_id": "recipe_potatoes_gratin",
+        "name": "Gratin de pommes de terre",
+        "preparation_time": 45,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_potatoes",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_milk",
+                "quantity": 50,
+                "unit_id": "volume_ml"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 20,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Éplucher et couper les pommes de terre en fines rondelles.",
+            "Disposer les pommes de terre dans un plat à gratin avec le lait, le fromage et l'ail.",
+            "Cuire au four pendant 35 minutes jusqu'à ce que le dessus soit doré."
+        ]
+    },
+    {
+        "_id": "recipe_soupe_carottes",
+        "name": "Soupe de carottes",
+        "preparation_time": 30,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_carrots",
+                "quantity": 150,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_olive_oil",
+                "quantity": 5,
+                "unit_id": "volume_ml"
+            }
+        ],
+        "instructions": [
+            "Faire revenir l'oignon et l'ail dans une casserole avec l'huile d'olive.",
+            "Ajouter les carottes coupées en rondelles et couvrir d'eau.",
+            "Laisser mijoter pendant 20 minutes, puis mixer la soupe."
+        ]
+    },
+    {
+        "_id": "recipe_tartare_boeuf",
+        "name": "Tartare de bœuf",
+        "preparation_time": 15,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_beef",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_black_pepper",
+                "quantity": 0.5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_salt",
+                "quantity": 1,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Couper le bœuf en petits dés.",
+            "Ajouter l'oignon haché, le sel et le poivre, puis bien mélanger.",
+            "Servir immédiatement avec une salade."
+        ]
+    },
+    {
+        "_id": "recipe_poelee_legumes",
+        "name": "Poêlée de légumes",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_zucchini",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_bell_pepper",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_onions",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Couper tous les légumes en dés.",
+            "Faire revenir l'oignon et l'ail dans une poêle avec un peu d'huile d'olive.",
+            "Ajouter les autres légumes et cuire à feu moyen pendant 15 minutes en remuant de temps en temps."
+        ]
+    },
+    {
+        "_id": "recipe_coquilles_saint_jacques",
+        "name": "Coquilles Saint-Jacques",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_scallops",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_garlic",
+                "quantity": 5,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_parsley",
+                "quantity": 2,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Faire fondre le beurre dans une poêle et y ajouter l'ail et le persil.",
+            "Ajouter les Saint-Jacques et cuire 2-3 minutes de chaque côté.",
+            "Servir chaud avec du pain."
+        ]
+    },
+    {
+        "_id": "recipe_boudin_aux_pommes",
+        "name": "Boudin aux pommes",
+        "preparation_time": 20,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_blood_sausage",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_apples",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_black_pepper",
+                "quantity": 0.5,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Éplucher et couper les pommes en quartiers.",
+            "Faire fondre le beurre dans une poêle, y faire revenir les pommes jusqu'à ce qu'elles soient dorées.",
+            "Cuire le boudin à feu moyen dans la même poêle, assaisonner et servir ensemble."
+        ]
+    },
+    {
+        "_id": "recipe_endives_gratin",
+        "name": "Endives au gratin",
+        "preparation_time": 40,
+        "servings": 1,
+        "ingredients": [
+            {
+                "ingredient_id": "ingredient_endive",
+                "quantity": 100,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_cheese",
+                "quantity": 25,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_ham",
+                "quantity": 50,
+                "unit_id": "weight_g"
+            },
+            {
+                "ingredient_id": "ingredient_butter",
+                "quantity": 10,
+                "unit_id": "weight_g"
+            }
+        ],
+        "instructions": [
+            "Préchauffer le four à 180°C.",
+            "Cuire les endives dans de l'eau bouillante pendant 15 minutes, puis les égoutter.",
+            "Enrouler chaque endive dans une tranche de jambon et disposer dans un plat à gratin.",
+            "Parsemer de fromage râpé, ajouter du beurre et cuire au four pendant 20 minutes."
+        ]
+    }
+]

@@ -17,10 +17,14 @@ import {
 } from './schemas/measureunit/measureunit.schema';
 import { MeasureunitsController } from './services/measureunit/measureunits/measureunits.controller';
 import { MeasureunitsService } from './services/measureunit/measureunits/measureunits.service';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/ecomeal'),
+    ConfigModule.forRoot(),
+    MongooseModule.forRoot(
+      process.env.MongoURI,
+    ),
     MongooseModule.forFeature([
       { name: Ingredient.name, schema: IngredientSchema },
     ]),

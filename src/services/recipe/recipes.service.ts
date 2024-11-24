@@ -1,13 +1,15 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
+import { Ingredient,IngredientDocument } from 'src/schemas/ingredient/ingredient.schema';
 import { Model } from 'mongoose';
 import { Recipe, RecipeDocument } from 'src/schemas/recipe/recipe.schema';
-import { CreateRecipeDto, UpdateRecipeDto } from 'src/dtos/recipe/recipe.dto';
+import { CreateRecipeDto, UpdateRecipeDto,IngredientDetailDto } from 'src/dtos/recipe/recipe.dto';
 
 @Injectable()
 export class RecipesService {
   constructor(
     @InjectModel(Recipe.name) private recipeModel: Model<RecipeDocument>,
+    @InjectModel(Ingredient.name) private ingredientModel: Model<IngredientDocument>
   ) {}
 
   async create(createRecipeDto: CreateRecipeDto): Promise<Recipe> {
@@ -46,4 +48,20 @@ export class RecipesService {
     }
     return deletedRecipe;
   }
+
+  
+
+
+
+  async findIngredientsByRecipe(id: string): Promise<IngredientDetailDto[]> {
+    // Chercher un recipe avec le champ 'id' (et non _id)
+    const recipe = await this.recipeModel.findOne({ id }).exec();
+    if (!recipe) {
+      throw new NotFoundException(`Recipe with ID ${id} not found`);
+    }
+  
+    // Retourner uniquement les détails des ingrédients
+    return recipe.ingredients;
+  }
+
 }

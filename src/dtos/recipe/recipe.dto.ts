@@ -3,7 +3,7 @@ import { Type } from 'class-transformer';
 import { ApiProperty } from '@nestjs/swagger';
 import { PartialType } from '@nestjs/swagger';
 
-class IngredientDetailDto {
+export class IngredientDetailDto {
   @ApiProperty()
   @IsString()
   ingredient_id: string;

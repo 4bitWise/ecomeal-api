@@ -1,4 +1,6 @@
-import {
+
+  
+  import {
   Controller,
   Get,
   Post,
@@ -13,6 +15,7 @@ import { RecipesService } from './recipes.service';
 import { CreateRecipeDto, UpdateRecipeDto } from 'src/dtos/recipe/recipe.dto';
 import { Recipe } from 'src/schemas/recipe/recipe.schema';
 import { ApiTags } from '@nestjs/swagger';
+import { IngredientDetail } from 'src/schemas/recipe/recipe.schema';
 
 @ApiTags('recipes')
 @Controller('recipes')
@@ -54,6 +57,10 @@ export class RecipesController {
     }
   }
 
+
+  
+
+
   @Put(':id')
   async update(
     @Param('id') id: string,
@@ -86,4 +93,23 @@ export class RecipesController {
       );
     }
   }
+
+  
+  @Get(':id/ingredients')
+  async findIngredients(@Param('id') id: string): Promise<IngredientDetail[]> {
+    try {
+      return await this.RecipesService.findIngredientsByRecipe(id);
+    } catch (err) {
+      throw new HttpException(
+        {
+          status: HttpStatus.NOT_FOUND,
+          error: `Recipe with ID ${id} not found`,
+        },
+        HttpStatus.NOT_FOUND,
+      );
+    }
+  }
+
 }
+
+

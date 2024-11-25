@@ -12,7 +12,6 @@ import {
 
 @Injectable()
 export class IngredientsService {
-
   constructor(
     @InjectModel(Ingredient.name)
     private ingredientModel: Model<IngredientDocument>,

@@ -18,17 +18,12 @@ export class CreateIngredientDto {
   price: number;
 
   @ApiProperty()
-  @IsPositive()
-  @Type(() => Number)
-  quantity: number;
-
-  @ApiProperty()
   @IsString()
   unit_id: string;
 
   @ApiProperty()
   @IsString()
-	@IsOptional()
+  @IsOptional()
   category?: string;
 }
 

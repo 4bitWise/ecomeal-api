@@ -15,9 +15,6 @@ export class Ingredient {
   price: number;
 
   @Prop({ required: true })
-  quantity: number;
-
-  @Prop({ required: true })
   unit_id: string;
 
   @Prop({ required: false })

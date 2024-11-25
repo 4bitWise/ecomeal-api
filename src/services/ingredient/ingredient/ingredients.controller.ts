@@ -5,12 +5,15 @@ import {
   Body,
   Param,
   Put,
-  Delete,
+  Delete, 
   HttpStatus,
   HttpException,
 } from '@nestjs/common';
 import { IngredientsService } from './ingredients.service';
-import { CreateIngredientDto, UpdateIngredientDto } from 'src/dtos/ingredient/ingredient.dto';
+import {
+  CreateIngredientDto,
+  UpdateIngredientDto,
+} from 'src/dtos/ingredient/ingredient.dto';
 import { Ingredient } from 'src/schemas/ingredient/ingredient.schema';
 import { ApiTags } from '@nestjs/swagger';
 

@@ -14,8 +14,8 @@ export class Measureunit {
   @Prop({ required: true, type: String })
   unit_symbol: string;
 
-  @Prop({ required: true, type: Number })
-  measurement_type: number;
+  @Prop({ required: true, type: String })
+  measurement_type: string;
 
   @Prop({ required: true, type: Number })
   conversion_factor: number;

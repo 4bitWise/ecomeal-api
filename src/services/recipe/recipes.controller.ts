@@ -1,6 +1,4 @@
-
-  
-  import {
+import {
   Controller,
   Get,
   Post,
@@ -57,10 +55,6 @@ export class RecipesController {
     }
   }
 
-
-  
-
-
   @Put(':id')
   async update(
     @Param('id') id: string,
@@ -94,7 +88,6 @@ export class RecipesController {
     }
   }
 
-  
   @Get(':id/ingredients')
   async findIngredients(@Param('id') id: string): Promise<IngredientDetail[]> {
     try {
@@ -109,7 +102,4 @@ export class RecipesController {
       );
     }
   }
-
 }
-
-

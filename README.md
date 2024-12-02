@@ -37,12 +37,18 @@ $ npm install
 ```bash
 # development
 $ npm run start
+# or
+$ nest start
 
 # watch mode
 $ npm run start:dev
+# or
+$nest start --watch
 
 # production mode
 $ npm run start:prod
+# or
+$ node dist/main
 ```
 
 ## Test

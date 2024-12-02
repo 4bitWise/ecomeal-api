@@ -4,11 +4,11 @@ import { Type } from 'class-transformer';
 import { PartialType } from '@nestjs/swagger';
 
 export class CreateIngredientDto {
-  @ApiProperty()
+  @ApiProperty({ example: 'ingredient_flour', description: 'Ingredient ID' })
   @IsString()
   id: string;
 
-  @ApiProperty()
+  @ApiProperty({ example: 'Flour', description: 'Ingredient name' })
   @IsString()
   name: string;
 
@@ -17,11 +17,11 @@ export class CreateIngredientDto {
   @Type(() => Number)
   price: number;
 
-  @ApiProperty()
+  @ApiProperty({ example: 'weight_g' })
   @IsString()
   unit_id: string;
 
-  @ApiProperty()
+  @ApiProperty({ example: 'baking', description: 'Ingredient category' })
   @IsString()
   @IsOptional()
   category?: string;

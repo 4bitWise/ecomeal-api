@@ -1,4 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { ApiProperty } from '@nestjs/swagger';
 import { HydratedDocument } from 'mongoose';
 
 export type IngredientDocument = HydratedDocument<Ingredient>;
@@ -13,9 +14,6 @@ export class Ingredient {
 
   @Prop({ required: true })
   price: number;
-
-  @Prop({ required: true })
-  quantity: number;
 
   @Prop({ required: true })
   unit_id: string;

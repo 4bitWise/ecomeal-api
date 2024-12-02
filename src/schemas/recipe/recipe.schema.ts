@@ -15,7 +15,7 @@ export class IngredientDetail {
   unit_id: string;
 }
 
-@Schema({ strict: false, timestamps: true })
+@Schema({ timestamps: true })
 export class Recipe {
   @Prop({ required: true, unique: true })
   id: string;
@@ -28,9 +28,6 @@ export class Recipe {
 
   @Prop({ required: true, type: Number })
   servings: number;
-
-  @Prop({ required: true, type: Number })
-  cost: number;
 
   @Prop({ required: true, type: [IngredientDetail] })
   ingredients: IngredientDetail[];

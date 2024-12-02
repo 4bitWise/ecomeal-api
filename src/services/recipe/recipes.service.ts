@@ -2,7 +2,11 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Recipe, RecipeDocument } from 'src/schemas/recipe/recipe.schema';
-import { CreateRecipeDto, UpdateRecipeDto } from 'src/dtos/recipe/recipe.dto';
+import {
+  CreateRecipeDto,
+  IngredientDetailDto,
+  UpdateRecipeDto,
+} from 'src/dtos/recipe/recipe.dto';
 
 @Injectable()
 export class RecipesService {
@@ -45,5 +49,30 @@ export class RecipesService {
       throw new NotFoundException(`Recipe with ID ${id} not found`);
     }
     return deletedRecipe;
+  }
+
+  async generateIngredientsList(
+    recipeIds: string[],
+  ): Promise<IngredientDetailDto[]> {
+    const ingredientsMap: { [key: string]: IngredientDetailDto } = {};
+    for (const recipeId of recipeIds) {
+      const recipe = await this.recipeModel.findOne({ id: recipeId }).exec();
+      if (!recipe) {
+        throw new NotFoundException(`Recipe with ID ${recipeId} not found`);
+      }
+      for (const ingredient of recipe.ingredients) {
+        const key = `${ingredient.ingredient_id}-${ingredient.unit_id}`;
+        if (ingredientsMap[key]) {
+          ingredientsMap[key].quantity += ingredient.quantity;
+        } else {
+          ingredientsMap[key] = {
+            ingredient_id: ingredient.ingredient_id,
+            quantity: ingredient.quantity,
+            unit_id: ingredient.unit_id,
+          };
+        }
+      }
+    }
+    return Object.values(ingredientsMap);
   }
 }

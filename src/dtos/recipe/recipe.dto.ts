@@ -1,9 +1,14 @@
-import { IsString, IsNumber, IsArray, ValidateNested, IsPositive } from 'class-validator';
+import {
+  IsString,
+  IsNumber,
+  IsArray,
+  ValidateNested,
+  IsPositive,
+} from 'class-validator';
 import { Type } from 'class-transformer';
-import { ApiProperty } from '@nestjs/swagger';
-import { PartialType } from '@nestjs/swagger';
+import { ApiProperty, PartialType } from '@nestjs/swagger';
 
-class IngredientDetailDto {
+export class IngredientDetailDto {
   @ApiProperty()
   @IsString()
   ingredient_id: string;

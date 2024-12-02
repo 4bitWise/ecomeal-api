@@ -17,8 +17,8 @@ export class CreateMeasureunitDto {
 
   @ApiProperty()
   @IsPositive()
-  @Type(() => Number)
-  measurement_type: number;
+  @Type(() => String)
+  measurement_type: string;
 
   @ApiProperty()
   @IsPositive()

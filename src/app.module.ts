@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
-import { IngredientsController } from './services/ingredient/ingredient/ingredients.controller';
-import { IngredientsService } from './services/ingredient/ingredient/ingredients.service';
+import { IngredientsController } from './services/ingredient/ingredients.controller';
+import { IngredientsService } from './services/ingredient/ingredients.service';
 import {
   Ingredient,
   IngredientSchema,
@@ -15,8 +15,8 @@ import {
   Measureunit,
   MeasureunitSchema,
 } from './schemas/measureunit/measureunit.schema';
-import { MeasureunitsController } from './services/measureunit/measureunits/measureunits.controller';
-import { MeasureunitsService } from './services/measureunit/measureunits/measureunits.service';
+import { MeasureunitsController } from './services/measureunit/measureunits.controller';
+import { MeasureunitsService } from './services/measureunit/measureunits.service';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({

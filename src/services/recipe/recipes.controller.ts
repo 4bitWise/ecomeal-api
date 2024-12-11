@@ -101,7 +101,7 @@ export class RecipesController {
     }
   }
 
-  @ApiBody({ type: IngredientDetailDto })
+  @ApiBody({ type: [String] })
   @ApiOperation({ summary: 'Find all ingredients based on many recipes' })
   @Post('generate-ingredients-list')
   async generateIngredientsList(

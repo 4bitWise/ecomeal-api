@@ -75,4 +75,45 @@ export class RecipesService {
     }
     return Object.values(ingredientsMap);
   }
+
+  async generateRecipesFromBudget(budget: number): Promise<Recipe[]> {
+    if (budget === 0 || isNaN(budget)) {
+      throw new Error('Invalid per-meal budget calculated.');
+    }
+
+    const lowerBound = budget * 0.9;
+    const upperBound = budget * 1.1;
+
+    // Récupérer les recettes qui coûtent moins que le budget max
+    const allRecipes = await this.recipeModel
+      .find({ cost: { $lte: upperBound } })
+      .exec();
+
+    if (!allRecipes.length) {
+      throw new Error('Aucune recette ne correspond à ce budget.');
+    }
+
+    // Générer une combinaison de recettes
+    const result: Recipe[] = [];
+    let totalCost = 0;
+
+    while (
+      totalCost < lowerBound ||
+      (totalCost <= upperBound && Math.random() < 0.5)
+    ) {
+      const randomRecipe =
+        allRecipes[Math.floor(Math.random() * allRecipes.length)];
+      result.push(randomRecipe);
+      totalCost += randomRecipe.cost;
+
+      // Si on dépasse le budget, on retire la dernière recette ajoutée
+      if (totalCost > upperBound) {
+        totalCost -= randomRecipe.cost;
+        result.pop();
+        break;
+      }
+    }
+
+    return allRecipes;
+  }
 }

@@ -101,7 +101,7 @@ export class RecipesController {
     }
   }
 
-  @ApiBody({ type: IngredientDetailDto })
+  @ApiBody({ type: [String] })
   @ApiOperation({ summary: 'Find all ingredients based on many recipes' })
   @Post('generate-ingredients-list')
   async generateIngredientsList(
@@ -116,6 +116,37 @@ export class RecipesController {
           error: 'Error generating ingredients list!',
         },
         HttpStatus.BAD_REQUEST,
+      );
+    }
+  }
+
+  // [TODO] Implement
+  @ApiBody({
+    description: "Generate a list of recipes based on the user's budget",
+    required: true,
+    schema: {
+      type: 'object',
+      properties: {
+        budget: {
+          type: 'number',
+          example: 300,
+          description: 'Total budget for generating recipes',
+        },
+      },
+    },
+  })
+  @ApiOperation({ summary: 'Generate a list of recipes based on budget' })
+  @Post('generate')
+  async generateRecipes(@Body('budget') budget: number): Promise<Recipe[]> {
+    try {
+      return await this.recipesService.generateRecipesFromBudget(budget);
+    } catch (err) {
+      throw new HttpException(
+        {
+          status: HttpStatus.INTERNAL_SERVER_ERROR,
+          error: 'Error generating recipe list!' + err.stack,
+        },
+        HttpStatus.INTERNAL_SERVER_ERROR,
       );
     }
   }

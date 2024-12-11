@@ -29,6 +29,9 @@ export class Recipe {
   @Prop({ required: true, type: Number })
   servings: number;
 
+  @Prop({ required: true, type: Number })
+  cost: number;
+
   @Prop({ required: true, type: [IngredientDetail] })
   ingredients: IngredientDetail[];
 

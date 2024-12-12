@@ -22,9 +22,7 @@ import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
     ConfigModule.forRoot(),
-    MongooseModule.forRoot(
-      process.env.MongoURI,
-    ),
+    MongooseModule.forRoot(process.env.MongoURI),
     MongooseModule.forFeature([
       { name: Ingredient.name, schema: IngredientSchema },
     ]),

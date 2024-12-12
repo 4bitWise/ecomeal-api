@@ -3,8 +3,12 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Recipe, RecipeDocument } from 'src/schemas/recipe/recipe.schema';
 import {
+  Ingredient,
+  IngredientDocument,
+} from '../../schemas/ingredient/ingredient.schema';
+import {
   CreateRecipeDto,
-  IngredientDetailDto,
+  IngredientDetailDtoWithPrice,
   UpdateRecipeDto,
 } from 'src/dtos/recipe/recipe.dto';
 
@@ -12,6 +16,8 @@ import {
 export class RecipesService {
   constructor(
     @InjectModel(Recipe.name) private recipeModel: Model<RecipeDocument>,
+    @InjectModel(Ingredient.name)
+    private ingredientModel: Model<IngredientDocument>,
   ) {}
 
   async create(createRecipeDto: CreateRecipeDto): Promise<Recipe> {
@@ -53,8 +59,9 @@ export class RecipesService {
 
   async generateIngredientsList(
     recipeIds: string[],
-  ): Promise<IngredientDetailDto[]> {
-    const ingredientsMap: { [key: string]: IngredientDetailDto } = {};
+  ): Promise<IngredientDetailDtoWithPrice[]> {
+    const ingredientsMap: { [key: string]: IngredientDetailDtoWithPrice } = {};
+
     for (const recipeId of recipeIds) {
       const recipe = await this.recipeModel.findOne({ id: recipeId }).exec();
       if (!recipe) {
@@ -62,13 +69,18 @@ export class RecipesService {
       }
       for (const ingredient of recipe.ingredients) {
         const key = `${ingredient.ingredient_id}-${ingredient.unit_id}`;
+        const ingredientInfo = await this.ingredientModel
+          .findOne({ id: ingredient.ingredient_id })
+          .exec();
         if (ingredientsMap[key]) {
           ingredientsMap[key].quantity += ingredient.quantity;
+          ingredientsMap[key].price += ingredientInfo.price;
         } else {
           ingredientsMap[key] = {
             ingredient_id: ingredient.ingredient_id,
             quantity: ingredient.quantity,
             unit_id: ingredient.unit_id,
+            price: ingredientInfo.price,
           };
         }
       }

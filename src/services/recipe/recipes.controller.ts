@@ -12,7 +12,7 @@ import {
 import { RecipesService } from './recipes.service';
 import {
   CreateRecipeDto,
-  IngredientDetailDto,
+  IngredientDetailDtoWithPrice,
   UpdateRecipeDto,
 } from 'src/dtos/recipe/recipe.dto';
 import { Recipe } from 'src/schemas/recipe/recipe.schema';
@@ -103,10 +103,10 @@ export class RecipesController {
 
   @ApiBody({ type: [String] })
   @ApiOperation({ summary: 'Find all ingredients based on many recipes' })
-  @Post('generate-ingredients-list')
+  @Post('generate-ingredients')
   async generateIngredientsList(
     @Body() recipeIds: string[],
-  ): Promise<IngredientDetailDto[]> {
+  ): Promise<IngredientDetailDtoWithPrice[]> {
     try {
       return await this.recipesService.generateIngredientsList(recipeIds);
     } catch (err) {

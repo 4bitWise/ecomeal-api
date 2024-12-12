@@ -54,3 +54,12 @@ export class CreateRecipeDto {
 }
 
 export class UpdateRecipeDto extends PartialType(CreateRecipeDto) {}
+
+export class IngredientDetailDtoWithPrice extends PartialType(
+  IngredientDetailDto,
+) {
+  @ApiProperty()
+  @IsPositive()
+  @Type(() => Number)
+  price: number;
+}

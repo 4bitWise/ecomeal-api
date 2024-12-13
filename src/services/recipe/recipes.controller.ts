@@ -103,7 +103,7 @@ export class RecipesController {
 
   @ApiBody({ type: [String] })
   @ApiOperation({ summary: 'Find all ingredients based on many recipes' })
-  @Post('generate-ingredients')
+  @Get('generate-ingredients')
   async generateIngredientsList(
     @Body() recipeIds: string[],
   ): Promise<IngredientDetailDtoWithPrice[]> {
@@ -136,7 +136,7 @@ export class RecipesController {
     },
   })
   @ApiOperation({ summary: 'Generate a list of recipes based on budget' })
-  @Post('generate')
+  @Get('generate')
   async generateRecipes(@Body('budget') budget: number): Promise<Recipe[]> {
     try {
       return await this.recipesService.generateRecipesFromBudget(budget);

@@ -23,14 +23,30 @@ import { ApiBody, ApiOperation, ApiParam, ApiTags } from '@nestjs/swagger';
 export class RecipesController {
   constructor(private readonly recipesService: RecipesService) {}
 
-  @ApiBody({ type: [String] })
+  @ApiBody({
+    description: 'Provide a list of recipes',
+    required: true,
+    schema: {
+      type: 'object',
+      properties: {
+        recipes: {
+          type: 'array',
+          items: {
+            type: 'string',
+          },
+          example: ['string1', 'string2'],
+          description: 'Array of recipe names',
+        },
+      },
+    },
+  })
   @ApiOperation({ summary: 'Find all ingredients based on many recipes' })
   @Get('generate-ingredients')
   async generateIngredientsList(
-    @Body() recipeIds: string[],
+    @Body('recipes') recipes: string[],
   ): Promise<IngredientDetailDtoWithPrice[]> {
     try {
-      return await this.recipesService.generateIngredientsList(recipeIds);
+      return await this.recipesService.generateIngredientsList(recipes);
     } catch (err) {
       throw new HttpException(
         {

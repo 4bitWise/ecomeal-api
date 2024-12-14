@@ -126,6 +126,6 @@ export class RecipesService {
       }
     }
 
-    return allRecipes;
+    return result;
   }
 }

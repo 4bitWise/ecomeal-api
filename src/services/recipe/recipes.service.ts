@@ -11,6 +11,10 @@ import {
   IngredientDetailDtoWithPrice,
   UpdateRecipeDto,
 } from 'src/dtos/recipe/recipe.dto';
+import {
+  Measureunit,
+  MeasureunitDocument,
+} from 'src/schemas/measureunit/measureunit.schema';
 
 @Injectable()
 export class RecipesService {
@@ -18,6 +22,8 @@ export class RecipesService {
     @InjectModel(Recipe.name) private recipeModel: Model<RecipeDocument>,
     @InjectModel(Ingredient.name)
     private ingredientModel: Model<IngredientDocument>,
+    @InjectModel(Measureunit.name)
+    private measureUnitModel: Model<MeasureunitDocument>,
   ) {}
 
   async create(createRecipeDto: CreateRecipeDto): Promise<Recipe> {
@@ -57,6 +63,18 @@ export class RecipesService {
     return deletedRecipe;
   }
 
+  async convertToBaseUnit(qty: number, unit_id: string): Promise<number> {
+    const unit = await this.measureUnitModel.findOne({ id: unit_id }).exec();
+    if (!unit.base_unit_id) {
+      return qty;
+    } else {
+      return await this.convertToBaseUnit(
+        qty * unit.conversion_factor,
+        unit.base_unit_id,
+      );
+    }
+  }
+
   async generateIngredientsList(
     recipeIds: string[],
   ): Promise<IngredientDetailDtoWithPrice[]> {
@@ -72,15 +90,20 @@ export class RecipesService {
         const ingredientInfo = await this.ingredientModel
           .findOne({ id: ingredient.ingredient_id })
           .exec();
+
+        const convertedQty = await this.convertToBaseUnit(
+          ingredient.quantity,
+          ingredient.unit_id,
+        );
         if (ingredientsMap[key]) {
           ingredientsMap[key].quantity += ingredient.quantity;
-          ingredientsMap[key].price += ingredientInfo.price;
+          ingredientsMap[key].price += ingredientInfo.price * convertedQty;
         } else {
           ingredientsMap[key] = {
             ingredient_id: ingredient.ingredient_id,
             quantity: ingredient.quantity,
             unit_id: ingredient.unit_id,
-            price: ingredientInfo.price,
+            price: ingredientInfo.price * convertedQty,
           };
         }
       }
